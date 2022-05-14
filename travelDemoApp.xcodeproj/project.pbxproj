@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		9E0165BA281A706500B12E32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0165B9281A706500B12E32 /* AppDelegate.swift */; };
 		9E0165BC281A706500B12E32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0165BB281A706500B12E32 /* SceneDelegate.swift */; };
-		9E0165BE281A706500B12E32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0165BD281A706500B12E32 /* ViewController.swift */; };
+		9E0165BE281A706500B12E32 /* FristViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0165BD281A706500B12E32 /* FristViewController.swift */; };
 		9E0165C1281A706500B12E32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0165BF281A706500B12E32 /* Main.storyboard */; };
 		9E0165C3281A706500B12E32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E0165C2281A706500B12E32 /* Assets.xcassets */; };
 		9E0165C6281A706500B12E32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0165C4281A706500B12E32 /* LaunchScreen.storyboard */; };
+		9E0165CE281A73D600B12E32 /* PlaceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0165CD281A73D600B12E32 /* PlaceInfo.swift */; };
+		9E0165D0281A777400B12E32 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0165CF281A777400B12E32 /* MainTableViewController.swift */; };
+		9E0165D2281A778B00B12E32 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0165D1281A778B00B12E32 /* MainTableViewCell.swift */; };
+		9E0165D4281AC0F800B12E32 /* TaiwanLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0165D3281AC0F800B12E32 /* TaiwanLocation.swift */; };
+		9E4045E7281BBDE400E9712B /* tourism.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9E4045E6281BBDE400E9712B /* tourism.xml */; };
+		9E55DE1A2824FE6C008E84CE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E55DE192824FE6C008E84CE /* MapViewController.swift */; };
+		9ECD55B5281FC3D700E3F1EB /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECD55B4281FC3D700E3F1EB /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9E0165B6281A706500B12E32 /* travelDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = travelDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E0165B9281A706500B12E32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E0165BB281A706500B12E32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9E0165BD281A706500B12E32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E0165BD281A706500B12E32 /* FristViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FristViewController.swift; sourceTree = "<group>"; };
 		9E0165C0281A706500B12E32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E0165C2281A706500B12E32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E0165C5281A706500B12E32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E0165C7281A706500B12E32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E0165CD281A73D600B12E32 /* PlaceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceInfo.swift; sourceTree = "<group>"; };
+		9E0165CF281A777400B12E32 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		9E0165D1281A778B00B12E32 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		9E0165D3281AC0F800B12E32 /* TaiwanLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaiwanLocation.swift; sourceTree = "<group>"; };
+		9E4045E6281BBDE400E9712B /* tourism.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tourism.xml; sourceTree = "<group>"; };
+		9E55DE192824FE6C008E84CE /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		9ECD55B4281FC3D700E3F1EB /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +72,17 @@
 			children = (
 				9E0165B9281A706500B12E32 /* AppDelegate.swift */,
 				9E0165BB281A706500B12E32 /* SceneDelegate.swift */,
-				9E0165BD281A706500B12E32 /* ViewController.swift */,
+				9E0165BD281A706500B12E32 /* FristViewController.swift */,
+				9E0165CF281A777400B12E32 /* MainTableViewController.swift */,
+				9E0165D1281A778B00B12E32 /* MainTableViewCell.swift */,
 				9E0165BF281A706500B12E32 /* Main.storyboard */,
-				9E0165C2281A706500B12E32 /* Assets.xcassets */,
+				9E55DE192824FE6C008E84CE /* MapViewController.swift */,
+				9ECD55B4281FC3D700E3F1EB /* ResultViewController.swift */,
 				9E0165C4281A706500B12E32 /* LaunchScreen.storyboard */,
+				9E0165C2281A706500B12E32 /* Assets.xcassets */,
+				9E0165D3281AC0F800B12E32 /* TaiwanLocation.swift */,
+				9E0165CD281A73D600B12E32 /* PlaceInfo.swift */,
+				9E4045E6281BBDE400E9712B /* tourism.xml */,
 				9E0165C7281A706500B12E32 /* Info.plist */,
 			);
 			path = travelDemoApp;
@@ -83,6 +104,8 @@
 			dependencies = (
 			);
 			name = travelDemoApp;
+			packageProductDependencies = (
+			);
 			productName = travelDemoApp;
 			productReference = 9E0165B6281A706500B12E32 /* travelDemoApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +134,8 @@
 				Base,
 			);
 			mainGroup = 9E0165AD281A706500B12E32;
+			packageReferences = (
+			);
 			productRefGroup = 9E0165B7281A706500B12E32 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E4045E7281BBDE400E9712B /* tourism.xml in Resources */,
 				9E0165C6281A706500B12E32 /* LaunchScreen.storyboard in Resources */,
 				9E0165C3281A706500B12E32 /* Assets.xcassets in Resources */,
 				9E0165C1281A706500B12E32 /* Main.storyboard in Resources */,
@@ -138,9 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E0165BE281A706500B12E32 /* ViewController.swift in Sources */,
+				9E0165BE281A706500B12E32 /* FristViewController.swift in Sources */,
 				9E0165BA281A706500B12E32 /* AppDelegate.swift in Sources */,
 				9E0165BC281A706500B12E32 /* SceneDelegate.swift in Sources */,
+				9ECD55B5281FC3D700E3F1EB /* ResultViewController.swift in Sources */,
+				9E55DE1A2824FE6C008E84CE /* MapViewController.swift in Sources */,
+				9E0165D4281AC0F800B12E32 /* TaiwanLocation.swift in Sources */,
+				9E0165D0281A777400B12E32 /* MainTableViewController.swift in Sources */,
+				9E0165D2281A778B00B12E32 /* MainTableViewCell.swift in Sources */,
+				9E0165CE281A73D600B12E32 /* PlaceInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
